@@ -1,0 +1,57 @@
+#Setup
+automationName=UiAutomator2
+platformName=android
+deviceName=ad74c42f
+appPackage=com.osos.spaarksapp
+appActivity=com.osos.spaarksapp.MainActivity
+noReset=true
+
+#Login
+ExixtingAccount=7204746636
+EnterPhoneNumberTextField=6784
+otp=123456
+InvalidPhoneNumberErrorMessage=Please enter valid phone number.
+WrongOtpAlertMessage=Please enter valid OTP.
+
+#CreateProfileFirstScreen
+FullName=abcde fgh ijklmnopqr stuv wxyz
+Username=asdfr.asde_hello
+BusinessTitle=Agent
+BusinessTitle1=Accountant
+FullName_Error_Message=Please enter your full name.
+Username_Error_Message=Invalid username. Please enter a new username
+
+ #CreateProfileSecondScreen
+Bio=sdfsd sdf s dfs df sdfsdfsdf sdf sdf sd fs f dsfsdfjdfgkjdng gkjdfgkgj.
+EmailAddress=shdjhgjhf14@gmail.com
+ImageAdress=C:\\Users\\ososa\\Downloads\\Testing\\Images\\cricket
+
+ #PostCreation
+JobTitle=asasdasdasdad
+JobTitleEidit=ASDHFH
+JobSummary=sdfgsdgsdgsdgdf
+JobDescription=adadgkgjfdhdifjh fjhifjhfoih
+JobSkills=java
+
+#Product
+ProductTitle=Computer
+ProductTitle_1=Mobile
+ProductPrice=30000
+ProductPrice_1=25000
+ProductDescription=A computer is a machine that can be programmed to carry out sequences of arithmetic or logical operations (computation) automatically.
+ProductDescription_1=A mobile phone is a wireless handheld device that allows users to make and receive calls. While the earliest generation of mobile phones.
+
+#poll
+PollQuestion=ashjjjs isdfsdhfsdf s fduhdfuhsdf usydfh
+PollQuestionUpdate=GDHuydgs dsydgyu s dfg sygsdf s dfsgdfysdysdg
+ChoiceOne=ABCD
+ChoiceOneUpdate=MVNNVNV
+ChoiceTwo=EFGH
+ChoiceTwoUpdate=FKKFKFKJF
+ChoiceThree=IJKL
+ChoiceFour=MNOP
+
+#Normal-community post
+CommunityPostText=sdfhsfd asfuhbajh afjhbafhbasf
+MarketPostText=sdfhsds  afjhbafhbasf
+FriendsPostText=dghfghfg hfhfghgh ghjfgjgjfj fjhfgjh.

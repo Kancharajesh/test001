@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: tests.TestScripts
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 32.838 s <<< FAILURE! - in tests.TestScripts
+setup(tests.TestScripts)  Time elapsed: 32.621 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20158ms. 
+Host info: host: 'DESKTOP-G40L07Q', ip: '192.168.0.117'
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=com.osos.spaarksapp.MainActivity, appium:appPackage=com.osos.spaarksapp, appium:automationName=UiAutomator2, appium:deviceName=ad74c42f, appium:noReset=true, platformName=ANDROID}], desiredCapabilities=Capabilities {appActivity: com.osos.spaarksapp.MainAct..., appPackage: com.osos.spaarksapp, automationName: UiAutomator2, deviceName: ad74c42f, noReset: true, platformName: ANDROID}}]
+Capabilities {appActivity: com.osos.spaarksapp.MainAct..., appPackage: com.osos.spaarksapp, automationName: UiAutomator2, deviceName: ad74c42f, noReset: true, platformName: ANDROID}
+	at tests.TestScripts.setup(TestScripts.java:33)
+
