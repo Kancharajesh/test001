@@ -5,27 +5,27 @@
     <classes>
       <class name="tests.TestScripts">
         <methods>
+          <include name="close"/>
           <include name="TC_Login_19"/>
           <include name="TC_Login_08"/>
-          <include name="close"/>
           <include name="TC_Login_09"/>
           <include name="setup"/>
           <include name="TC_Login_17"/>
           <include name="TC_Login_06"/>
-          <include name="TC_Login_18"/>
           <include name="TC_Login_07"/>
+          <include name="TC_Login_18"/>
           <include name="TC_Login_15"/>
           <include name="TC_Login_04"/>
-          <include name="TC_Login_16"/>
           <include name="TC_Login_05"/>
+          <include name="TC_Login_16"/>
           <include name="TC_Login_13"/>
           <include name="TC_Login_02"/>
           <include name="TC_Login_11"/>
           <include name="TC_Login_12"/>
           <include name="TC_Login_20"/>
           <include name="TC_Login_10"/>
-          <include name="TC_Login_14"/>
           <include name="TC_Login_03"/>
+          <include name="TC_Login_14"/>
         </methods>
       </class> <!-- tests.TestScripts -->
     </classes>
