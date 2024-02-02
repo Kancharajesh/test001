@@ -3,31 +3,49 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.TestScripts">
+      <class name="tests.PostCreationTests">
         <methods>
-          <include name="close"/>
-          <include name="TC_Login_19"/>
-          <include name="TC_Login_08"/>
-          <include name="TC_Login_09"/>
+          <include name="TC_PostCreation_19"/>
+          <include name="TC_PostCreation_33"/>
+          <include name="TC_PostCreation_11"/>
+          <include name="TC_PostCreation_36"/>
+          <include name="TC_PostCreation_14"/>
+          <include name="TC_PostCreation_35"/>
+          <include name="TC_PostCreation_13"/>
+          <include name="TC_PostCreation_37"/>
+          <include name="TC_PostCreation_15"/>
+          <include name="TC_PostCreation_18"/>
+          <include name="TC_PostCreation_17"/>
+          <include name="TC_PostCreation_34"/>
+          <include name="TC_PostCreation_12"/>
+          <include name="TC_PostCreation_27"/>
+          <include name="TC_PostCreation_05"/>
           <include name="setup"/>
-          <include name="TC_Login_17"/>
-          <include name="TC_Login_06"/>
-          <include name="TC_Login_07"/>
-          <include name="TC_Login_18"/>
-          <include name="TC_Login_15"/>
-          <include name="TC_Login_04"/>
-          <include name="TC_Login_05"/>
-          <include name="TC_Login_16"/>
-          <include name="TC_Login_13"/>
-          <include name="TC_Login_02"/>
-          <include name="TC_Login_11"/>
-          <include name="TC_Login_12"/>
-          <include name="TC_Login_20"/>
-          <include name="TC_Login_10"/>
-          <include name="TC_Login_03"/>
-          <include name="TC_Login_14"/>
+          <include name="TC_PostCreation_32"/>
+          <include name="TC_PostCreation_10"/>
+          <include name="TC_PostCreation_31"/>
+          <include name="TC_PostCreation_30"/>
+          <include name="TC_PostCreation_08"/>
+          <include name="TC_PostCreation_09"/>
+          <include name="TC_PostCreation_22"/>
+          <include name="TC_PostCreation_25"/>
+          <include name="TC_PostCreation_03"/>
+          <include name="TC_PostCreation_24"/>
+          <include name="TC_PostCreation_02"/>
+          <include name="TC_PostCreation_26"/>
+          <include name="TC_PostCreation_04"/>
+          <include name="TC_PostCreation_29"/>
+          <include name="TC_PostCreation_07"/>
+          <include name="TC_PostCreation_28"/>
+          <include name="TC_PostCreation_06"/>
+          <include name="TC_PostCreation_23"/>
+          <include name="TC_PostCreation_01"/>
+          <include name="TC_PostCreation_16"/>
+          <include name="TC_PostCreation_21"/>
+          <include name="TC_PostCreation_20"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- tests.TestScripts -->
+      </class> <!-- tests.PostCreationTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
